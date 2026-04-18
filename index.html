@@ -3,177 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shota Sato | Portfolio</title>
+    <title>荒井 盾 | Arai Don</title>
     <meta
       name="description"
-      content="デザイン、開発、企画まで横断してものづくりをする人のための自己紹介サイト。"
+      content="荒井 盾 / Arai Don の自己紹介サイト"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="#top">SS</a>
-        <nav class="site-nav" aria-label="主要リンク">
-          <a href="#about">About</a>
-          <a href="#strengths">Strengths</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-
-      <main id="top">
-        <section class="hero reveal">
-          <p class="eyebrow">INTRODUCTION SITE</p>
-          <div class="hero-grid">
-            <div class="hero-copy">
-              <p class="hero-kicker">Build with taste. Ship with care.</p>
-              <h1>
-                企画から実装、公開まで
-                <span>手を動かして前に進める</span>
-                制作パートナーです。
-              </h1>
-              <p class="hero-text">
-                Webサイト、フロントエンド、プロトタイピング、コンテンツ整理まで一気通貫で担当します。
-                見た目だけでなく、伝わる構成と公開後の運用まで意識して設計します。
-              </p>
-              <div class="hero-actions">
-                <a class="button button-primary" href="#contact">相談する</a>
-                <a class="button button-secondary" href="#work">制作例を見る</a>
-              </div>
-            </div>
-            <aside class="hero-card">
-              <p class="card-label">PROFILE</p>
-              <h2>佐藤 翔太</h2>
-              <p class="card-role">Developer / Designer / Builder</p>
-              <ul class="stat-list">
-                <li>
-                  <span class="stat-value">5+</span>
-                  <span class="stat-label">Years building on the web</span>
-                </li>
-                <li>
-                  <span class="stat-value">3</span>
-                  <span class="stat-label">Core areas: design, code, launch</span>
-                </li>
-                <li>
-                  <span class="stat-value">24h</span>
-                  <span class="stat-label">Fast turnaround for initial prototypes</span>
-                </li>
-              </ul>
-            </aside>
-          </div>
-        </section>
-
-        <section class="intro reveal" id="about">
-          <div class="section-heading">
-            <p class="eyebrow">ABOUT</p>
-            <h2>短く言うと、伝わるものを速く形にするのが得意です。</h2>
-          </div>
-          <div class="intro-grid">
-            <p>
-              アイデアが曖昧な段階でも、必要な情報を整理しながら、
-              設計・デザイン・実装を並走させて前に進めます。スタートアップのLP、
-              個人のポートフォリオ、サービス紹介ページのように、限られた情報でも
-              まず公開できる状態まで持っていく仕事が得意です。
-            </p>
-            <p>
-              このページは静的サイトとして構成しているため、軽量で保守しやすく、
-              GitHub Pages や Netlify にそのまま公開できます。内容はあとから
-              HTMLを書き換えるだけで差し替えられます。
-            </p>
-          </div>
-        </section>
-
-        <section class="strengths reveal" id="strengths">
-          <div class="section-heading">
-            <p class="eyebrow">STRENGTHS</p>
-            <h2>できること</h2>
-          </div>
-          <div class="panel-grid">
-            <article class="panel">
-              <p class="panel-index">01</p>
-              <h3>情報設計</h3>
-              <p>
-                誰に何を伝えるページなのかを整理し、見出し、導線、優先順位を設計します。
-              </p>
-            </article>
-            <article class="panel">
-              <p class="panel-index">02</p>
-              <h3>UIデザイン</h3>
-              <p>
-                既存テンプレート感を避けつつ、モバイルでも破綻しない見た目に落とし込みます。
-              </p>
-            </article>
-            <article class="panel">
-              <p class="panel-index">03</p>
-              <h3>実装と公開</h3>
-              <p>
-                HTML/CSS/JavaScriptで軽く仕上げるか、必要ならフレームワークへ拡張できます。
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="work reveal" id="work">
-          <div class="section-heading">
-            <p class="eyebrow">WORK</p>
-            <h2>想定している掲載内容</h2>
-          </div>
-          <div class="project-list">
-            <article class="project-card">
-              <p class="project-type">Case 01</p>
-              <h3>自己紹介 / ポートフォリオ</h3>
-              <p>
-                スキル、実績、連絡先を一画面で伝える個人サイト。初対面の人に短時間で印象を残す設計。
-              </p>
-            </article>
-            <article class="project-card">
-              <p class="project-type">Case 02</p>
-              <h3>サービス紹介LP</h3>
-              <p>
-                価値提案、機能、料金、CTAを整理したシンプルな縦長ページ。公開優先で最短着地。
-              </p>
-            </article>
-            <article class="project-card">
-              <p class="project-type">Case 03</p>
-              <h3>プロトタイプページ</h3>
-              <p>
-                アイデア検証用の素早い実装。見た目だけでなく、実際に触れる形で確認できます。
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="contact reveal" id="contact">
-          <div class="section-heading">
-            <p class="eyebrow">CONTACT</p>
-            <h2>公開後に差し替える連絡先</h2>
-          </div>
-          <div class="contact-card">
-            <p>
-              実運用ではここにメールアドレス、SNS、GitHub、Wantedly などを入れてください。
-            </p>
-            <div class="contact-links">
-              <a href="mailto:hello@example.com">hello@example.com</a>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
-        <p>© <span id="year"></span> Shota Sato</p>
-        <p>Static portfolio for fast publishing.</p>
-      </footer>
-    </div>
-
-    <script src="./script.js"></script>
+    <main class="container">
+      <p class="label">PROFILE</p>
+      <h1>荒井 盾</h1>
+      <p class="sub">Arai Don</p>
+      <p class="intro">
+        ものづくりとWebに関わっています。
+      </p>
+      <div class="links">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="https://github.com/donarai" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </main>
   </body>
 </html>
