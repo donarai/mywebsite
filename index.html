@@ -6,28 +6,206 @@
     <title>荒井 盾 | Arai Don</title>
     <meta
       name="description"
-      content="荒井 盾 / Arai Don の自己紹介サイト"
+      content="荒井 盾 / Arai Don のエンジニア向けポートフォリオサイト"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main class="container">
-      <p class="label">PROFILE</p>
-      <h1>荒井 盾</h1>
-      <p class="sub">Arai Don</p>
-      <p class="intro">
-        ものづくりとWebに関わっています。
-      </p>
-      <div class="links">
-        <a href="mailto:hello@example.com">hello@example.com</a>
-        <a href="https://github.com/donarai" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-    </main>
+    <div class="page-shell">
+      <header class="site-header reveal">
+        <a class="brand" href="#about">
+          <span class="brand-en">Arai Don</span>
+          <span class="brand-ja">荒井 盾</span>
+        </a>
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="#about">About</a>
+          <a href="#stack">Stack</a>
+          <a href="#career">Career</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero reveal" id="about">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Engineer</p>
+            <h1>荒井 盾</h1>
+            <p class="subline">Arai Don</p>
+            <p class="lead">
+              Web アプリケーションの設計と実装を軸に、フロントエンドからバックエンドまで横断して開発しています。
+              情報を整理し、触ったときの印象まで含めて、静かに強いプロダクトをつくることを大切にしています。
+            </p>
+          </div>
+          <div class="hero-side">
+            <div class="floating-card">
+              <p class="mini-label">Focus</p>
+              <strong>Frontend / Backend / Product</strong>
+            </div>
+            <div class="floating-card floating-card-alt">
+              <p class="mini-label">Primary</p>
+              <strong>TypeScript, React, Node.js</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="overview-grid">
+          <article class="overview-card reveal">
+            <p class="mini-label">Role</p>
+            <h2>設計と実装をつなぐ</h2>
+            <p>
+              UI だけでなく、データ設計や API 設計まで含めて、一貫した体験として組み立てます。
+            </p>
+          </article>
+          <article class="overview-card reveal">
+            <p class="mini-label">Style</p>
+            <h2>静かで長く使える設計</h2>
+            <p>
+              派手さよりも、速度、保守性、読みやすさを優先しながら、品のある見た目に整えます。
+            </p>
+          </article>
+          <article class="overview-card reveal">
+            <p class="mini-label">Interest</p>
+            <h2>プロダクト全体を見る</h2>
+            <p>
+              小さな改善から新規立ち上げまで、利用者と運用の両方を見ながら形にしていきます。
+            </p>
+          </article>
+        </section>
+
+        <section class="section-block reveal" id="stack">
+          <div class="section-head">
+            <p class="section-label">Tech Stack</p>
+            <h2>技術スタック</h2>
+            <p class="section-copy">
+              実務と個人開発の両方で継続的に扱っている技術です。
+            </p>
+          </div>
+          <div class="stack-grid">
+            <div class="stack-column">
+              <h3>Frontend</h3>
+              <ul>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>HTML / CSS</li>
+              </ul>
+            </div>
+            <div class="stack-column">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>REST API</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+            <div class="stack-column">
+              <h3>Tools</h3>
+              <ul>
+                <li>Git / GitHub</li>
+                <li>Docker</li>
+                <li>Vercel</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-split">
+          <section class="section-block reveal" id="career">
+            <div class="section-head">
+              <p class="section-label">Career</p>
+              <h2>経歴</h2>
+            </div>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-meta">
+                  <p class="timeline-year">2024 - Present</p>
+                  <span>Software Engineer</span>
+                </div>
+                <h3>Web プロダクト開発</h3>
+                <p>
+                  新規機能開発と既存改善を担当。UI 実装、API 設計、データの整理まで横断して対応。
+                </p>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-meta">
+                  <p class="timeline-year">2022 - 2024</p>
+                  <span>Frontend / Product Development</span>
+                </div>
+                <h3>プロダクト体験の改善</h3>
+                <p>
+                  フロントエンドを主軸に、情報設計やデザイン調整も含めて体験全体を改善。
+                </p>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-meta">
+                  <p class="timeline-year">2020 - 2022</p>
+                  <span>Web Development</span>
+                </div>
+                <h3>開発基盤づくり</h3>
+                <p>
+                  サイト制作やアプリ実装を通じて、設計、実装、公開までの基礎を一通り経験。
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <aside class="section-block reveal" id="contact">
+            <div class="section-head">
+              <p class="section-label">Contact</p>
+              <h2>連絡先</h2>
+            </div>
+            <div class="contact-list">
+              <a href="mailto:hello@example.com">hello@example.com</a>
+              <a href="https://github.com/donarai" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section-block reveal" id="projects">
+          <div class="section-head">
+            <p class="section-label">Projects</p>
+            <h2>成果物</h2>
+            <p class="section-copy">
+              実際に取り組んできた制作や改善の例を、要点だけに絞って掲載しています。
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-type">Web Application</p>
+              <h3>管理画面の再設計と実装</h3>
+              <p>
+                情報量の多い業務画面を整理し、一覧・詳細・編集の導線を一貫して改善。
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="project-type">Landing Page</p>
+              <h3>サービス紹介ページの設計</h3>
+              <p>
+                価値提案と導線を整理し、軽量な静的構成で公開まで担当。
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="project-type">Internal Tool</p>
+              <h3>業務支援ツールの構築</h3>
+              <p>
+                入力、確認、共有の流れを簡潔にし、小さなチームでも扱いやすい形に改善。
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
